@@ -1,0 +1,2 @@
+# JEE-DROPPER-AI-ENGINEER-
+Jee dropper stared learning ai and python age 19 to clear my family debt 10 lakhs .
