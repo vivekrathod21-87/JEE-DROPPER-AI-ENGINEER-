@@ -1,0 +1,26 @@
+a=11
+print(a)
+a1=1.6
+b="harry"
+print(b)
+print(a+a1)
+print(type(a))
+print(type(b))
+print("type of a1 is : ", type(a1))
+c=complex(4,6)
+print(type(c))
+list1=[8,2.3,[7,6],["apple","banana"]]
+print(list1)
+tuple1=(8,2,("parrot","animal"))
+print(tuple1)
+dict1={"name":"vivek","age":19, "goal":"JEE"}
+print(dict1)
+name="vivek"
+age=19
+target="jee 2027"
+print(name)
+print(type(name))
+print(age)
+print(type(age))
+print(target)
+print(type(target))
