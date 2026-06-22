@@ -1,0 +1,10 @@
+name =input("ENTER YOUR NAME =")
+print(name)
+num1=int(input("ENTER YOUR NUMBER ONE=  "))
+num2=int(input("ENTER YOUR NUMBER TWO="))
+if num1+num2 :
+    print(num1+num2)
+    print(num1-num2)
+    print(num1**2)
+    print(num1/num1)
+    print(num1*num2)
