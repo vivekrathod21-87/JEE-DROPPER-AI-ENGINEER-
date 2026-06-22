@@ -1,0 +1,8 @@
+"""  '''# hey vivek ,be consistent and diciplane
+#you are not your limitation''' """
+print ("hey i am good boy \nand this \• viewer\• is also a good boy")
+print("hellow world")
+print (" a \" diciplaned man \"is only \'peaceful\' \n and powerful")
+print("hey", 6, 7, sep="+", end="777\n")
+print("vivek")
+print("vivek:\t \"ai engineering\" ")
