@@ -1,0 +1,27 @@
+name="vivek"
+friend="tarun"
+anotherfriend='vivek'
+print("hello", name)
+apple= ''' "he said " ,
+hello bhai kya
+chal raua  "i want to eat an apple" '''
+print(apple)
+print(name[0])
+print(name[1])
+
+print(name[2])
+print(name[3])
+print(name[4])
+for character in name :
+    print(name)
+for character in apple :
+    print(character)
+# Home work one
+name="vivek"
+print("first character =" ,name[0])
+print("last charater =", name[4])
+print("length =",len(name))
+# home work two 
+userinput=input("enter your wish =")
+for i  in  userinput :
+    print(i)
