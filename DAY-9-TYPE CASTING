@@ -1,0 +1,15 @@
+a="3"
+b="4"
+print ( int(a)  +int (b))
+c="7"
+d=8
+print(int(c)+d)
+e=1.6
+f=7
+print(e+f)
+a=input("enter your number =")
+b=input("enter your second number=")
+print("without typecasting",a+b)
+print("with typecasting", int(a)+int(b))
+x=int(input("enter your age "))
+print("after ten years you will be " , int(x)+10)
