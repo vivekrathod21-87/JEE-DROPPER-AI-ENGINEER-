@@ -1,0 +1,62 @@
+'''a=int(input("ENTER YOUR AGE ="))
+print("your age is=",a)
+print(a<18)
+print(a<=18)
+print(a>=18)
+print(a!=18)
+if (a>=18):
+    print("you can drive")
+    print("yes")
+else :
+    print("you cannot")
+    print("no")
+    #conditional oprators
+    # >,< ,<=,>=.
+print("yall")
+appleprice=120
+budget=200
+if (appleprice>budget):
+    print("nahi mera bhai ")
+
+else:
+    print("haan mera bhai ")
+b=int(input("enter your number="))
+if(b>0):
+    print("positive hai yrr")
+elif (b==0):
+    print("neutral hai yr")
+elif(b==999):
+    print("i am happy ")
+else:
+     print("negative hai yrr ")
+c=2
+if (c>10):
+    print("its positive")
+elif (c>=10):
+    print("its less than 10")
+    if(3<c<5):
+        print(" chal jayega ")
+    elif(1<c<4):
+        print("soja bhai") '''
+   
+  # home work one       
+marks=int(input("ENTER YOUR MARK="))
+if marks>=90 :
+    print("Bhai tera  A grade hai maze ")
+elif 75<=marks<=89 :
+    print("B grade aya hai bhai ka ")
+elif 50<=marks<=74 :
+    print("c grade hai tera ")
+else :
+    print("fail hai bhai apne app ko party de is duniya ki mkc ")
+    
+    
+    # home work 2
+    
+x=int(input("enter your first number ="))
+y=int(input("enter your second number ="))
+z=int(input("enter your third number ="))
+if x>=y and x>=z:
+     print(x,"x is the greatest")
+elif y>=z and y>=x:
+     print(y,"y is the greatest ")
