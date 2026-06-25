@@ -1,0 +1,31 @@
+# extra session till day 16
+#homework 1
+name=input("ENTER YOUR NAME = ")
+import time
+hour=int(time.strftime("%H"))
+day=time.strftime("%A")
+if hour<12 :
+    print("good morning sir " ,name)
+elif hour<17:
+    print("good evening sir",name)
+else:
+    print("Good night ", name)
+    #program two
+name=input("ENTER YOUR NAME =")
+print(len(name))
+print(name[0])
+print(name[-1])
+print(name.upper())
+print(name.lower())
+
+print( name.startswith("v"))
+print(name.endswith("K"))
+print(name.replace("vivek ", "chatgpt"))
+level=int(input("enter your level="))
+match level:
+    case 1:
+        print("begginer")
+    case 2:
+        print("average")
+    case _:
+        print("ghar jaake sutuu babu ")
