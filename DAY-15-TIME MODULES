@@ -1,0 +1,12 @@
+import time
+timestamp=time.strftime('%10:%45:%30')
+print(timestamp)
+timestamp=time.strftime('%10')
+print(timestamp)
+timestamp=time.strftime('%45')
+print(timestamp)
+timestamp=time.strftime('%30')
+print(timestamp)
+import time
+time=time.strftime('%A')
+print(time)
