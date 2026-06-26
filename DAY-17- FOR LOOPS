@@ -1,0 +1,30 @@
+name=input("enter your name =")
+for i in name:
+    print(i)
+    if(i=="v"):
+        print("this is special")
+color=["vivek", "r vivek"]
+for color in color:
+    print(color)
+    for i in color:
+        print(i)
+for k in range(66):
+    print(k+1)
+for k in range(1,9):
+    print(k)
+for k in range(20000):
+    print(k+1)
+    
+for k in range(0,12,2):
+    print(k)
+    #HOME WORK ONE 
+i =int(input("ENTER WHICH TABLE YOU WANT TO HAVE "))
+for i in range  (i,10*i+1,i):
+    print(i)
+    #HOME WORK TWO 
+name=input("ENTER YOUR NAME  = ")
+for character in name:
+    if character in "AEIOU":
+        print(character)
+    
+    
