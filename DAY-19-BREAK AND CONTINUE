@@ -1,0 +1,29 @@
+''for i in range(12):
+    if i==10:
+       print("skip the iteration")
+       continue
+    print(" 5 X", i+1,"=",5*(i+1))
+    
+print("nikal gaya ")   
+i=0     
+while True:
+    print (i)
+    i=i+1
+    if (i%100==0):
+        break'''
+        
+        
+        
+#home work one good program 
+i=int(input("ENTER YOUR NUMBER = "))
+print(i)
+while (i!=27):
+    i=int(input("ENTER YOUR NUMBER = "))
+    print(i)
+if i<27:
+    print(" two low to ")
+elif i>27:
+    print(" two high  ")
+else:
+    print("ghar jake sutti mentor")
+
