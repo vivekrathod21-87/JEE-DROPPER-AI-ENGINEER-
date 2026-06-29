@@ -1,0 +1,64 @@
+marks=[4,5,7,"vivek", True , 22 , 33 , 66, 77]
+"""print(marks)
+print(type(marks))
+print(marks[0])
+print(marks[1])
+print(marks[2])
+print(marks[3])
+print(marks[4])
+print(marks[-3])
+print(marks[len(marks)-3])
+
+if "vivek" in marks :
+    print("yes")
+else:
+    print("no")
+    
+if "ivek" in "vivek":
+    print("yes")
+    
+if "vi"in"vivek":
+    print(" yes ")
+    
+    
+print(marks)
+print(marks[1:8])
+print(marks[1:8:3])
+lst=[ i*i for i in range(10) if i%2==0]
+print(lst)"""
+# HOME WORK WHICH CHECKS THINKING PATTERN
+marks=[20, 30 , 40  ]
+def Average(marks):
+    print("Average is =", (marks[0]+marks[1]+marks[2])/3)
+Average(marks)
+def Highestis(marks):
+    
+    if marks[0]>marks[1] and marks[0]>marks[2]:
+        print("Heighest is =" , marks[0])
+    elif marks[1]>marks[0] and marks[1]>marks[2]:
+        print("HEIGHEST IS = ", marks[1])
+    elif marks[2]>marks[0] and marks[2]>marks[1]:
+        print("Heighest is =", marks[2])
+    else:
+         print("ghar jake sutti babu ")
+Highestis(marks)
+def lowestis(marks):
+   if marks[0]<marks[1] and marks[0]<marks[2]:
+        print("lowest is  =" , marks[0])
+   elif marks[1]<marks[0] and marks[1]<marks[2]:
+        print("lowest is  = ", marks[1])
+   elif marks[2]<marks[0] and marks[2]<marks[1]:
+        print(" lowest =", marks[2])
+   else:
+         print("ghar jake sutti babu ")
+lowestis(marks )
+def aboveaverage(marks):
+    if marks[0]>Average(marks):
+        print("above average ", marks[0])
+    elif marks[1]>Average(marks):
+        print("Above average ", marks[1])
+    elif marks[2]>Average(marks):
+        print(" Above average ", marks[2])
+    else :
+        print("above average  soja ")
+aboveaverage(marks)
