@@ -1,0 +1,37 @@
+# early program 
+print ("STUDENT MARKS MANEGER ")
+mark1=int(input("ENTER YOUR MARK 1 : "))
+mark2=int(input("ENTER YOUR MARK 2 : "))
+mark3=int(input("ENTER YOUR MARK 3 : "))
+mark4=int(input("ENTER YOUR MARK 4 : "))
+mark5=int(input("ENTER YOUR MARK 5 : "))
+marks=[mark1,mark2,mark3,mark4,mark5]
+total=(marks[0]+marks[1]+marks[2]+marks[3]+marks[4])
+def allstudents(total):
+    return total
+x=allstudents(total)
+print("total marks=",x)
+average=(marks[0]+marks[1]+marks[2]+marks[3]+marks[4])/5
+def averagemarks(average):
+    return average
+y=averagemarks(average)
+print(" your average marks =",y)
+
+def highestmarks(marks):
+   highest=marks[0]
+   for i in marks:
+       if i>highest:
+           highest=i
+   return highest
+
+def lowestmarks(marks):
+     lowest=marks[0]
+     for i in marks:
+               if i < lowest:
+                    lowest=i
+              
+     return lowest 
+h=highestmarks(marks)
+l=lowestmarks(marks)
+print("HIGHEST=",h)
+print("Lowest=",l)
